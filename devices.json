@@ -1,0 +1,48 @@
+[
+    {
+        "device_type": "cisco_ios",
+        "host": "192.168.1.1",
+        "username": "admin",
+        "password": "password123",
+        "secret": "enablepassword123",
+        "port": 22  # SSH port
+    },
+    {
+        "device_type": "cisco_ios",
+        "host": "192.168.2.1",
+        "username": "network_admin",
+        "password": "cisco@123",
+        "secret": "cisco_secret",
+        "port": 22  # SSH port
+    },
+    {
+        "device_type": "juniper",
+        "host": "192.168.3.1",
+        "username": "juniper_admin",
+        "password": "juniperpassword",
+        "port": 22  # SSH port
+    },
+    {
+        "device_type": "hp_procurve",
+        "host": "192.168.4.1",
+        "username": "hp_admin",
+        "password": "hppassword",
+        "port": 22  # SSH port
+    },
+    {
+        "device_type": "cisco_ios",
+        "host": "10.10.10.1",
+        "username": "datacenter_admin",
+        "password": "strongpassword",
+        "secret": "strongsecret",
+        "port": 22  # SSH port
+    },
+    {
+        "device_type": "cisco_ios",
+        "host": "10.10.20.1",
+        "username": "backup_admin",
+        "password": "backup123",
+        "secret": "backup_secret",
+        "port": 22  # SSH port
+    }
+]

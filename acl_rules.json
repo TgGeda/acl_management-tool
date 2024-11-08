@@ -1,0 +1,56 @@
+[
+    {
+        "acl_number": 101,
+        "action": "permit",
+        "protocol": "tcp",
+        "source": "192.168.10.0/24",
+        "destination": "192.168.20.0/24",
+        "port": 80
+    },
+    {
+        "acl_number": 101,
+        "action": "permit",
+        "protocol": "tcp",
+        "source": "192.168.10.0/24",
+        "destination": "192.168.20.0/24",
+        "port": 443
+    },
+    {
+        "acl_number": 101,
+        "action": "deny",
+        "protocol": "icmp",
+        "source": "192.168.30.0/24",
+        "destination": "192.168.40.0/24"
+    },
+    {
+        "acl_number": 102,
+        "action": "deny",
+        "protocol": "tcp",
+        "source": "172.16.10.0/24",
+        "destination": "172.16.20.0/24",
+        "port": 23
+    },
+    {
+        "acl_number": 103,
+        "action": "permit",
+        "protocol": "udp",
+        "source": "10.10.10.0/24",
+        "destination": "10.10.20.0/24",
+        "port": 53
+    },
+    {
+        "acl_number": 104,
+        "action": "deny",
+        "protocol": "tcp",
+        "source": "any",
+        "destination": "10.10.30.0/24",
+        "port": 22
+    },
+    {
+        "acl_number": 105,
+        "action": "permit",
+        "protocol": "ip",
+        "source": "any",
+        "destination": "any"
+    }
+]
